@@ -1,14 +1,15 @@
+# JavaScript Object Notation
 import json
 
 '''
-json.load(f): Load JSON data from file 
+json.load(f): Load JSON data from file and convert it into a python dictionary 
 json.loads(s): Load JSON data from a string usually from a server
 json.dump(j, f): Write JSON object to a file 
 json.dumps(j): Output json object as string
 '''
 
 # json.load(f) example and convert the json into a dictionary
-with open('movie_1.json','r') as json_file:
+with open('movie_1.json', 'r') as json_file:
     movie = json.load(json_file)
 
 print(movie)
@@ -35,15 +36,14 @@ print(dump)
 
 # json.dump() create a new object convert to json and write to a file
 movie2 = {
-    "title":"Minority report",
+    "title": "Minority report",
     "director": "Steven Spielberg",
     "composer": "John Williams",
-    "actors" : ["Tom Cruise", "Colin Farell"],
-    "is_awesome" : True,
+    "actors": ["Tom Cruise", "Colin Farell"],
+    "is_awesome": True,
     "budget": 102000000,
-    "cinematographer" : "Janusz Kami\u0144ski"
-    }
+    "cinematographer": "Janusz Kami\u0144ski"
+}
 
-
-with open("movie_2.json",'w', encoding = "utf-8") as mov:
-    json.dump(movie2, mov, ensure_ascii= False)
+with open("movie_2.json", 'w', encoding="utf-8") as mov:
+    json.dump(movie2, mov, ensure_ascii=False)

@@ -1,14 +1,18 @@
 {
-    "title":"Gattaca",
-    "release_year" : 1997,
-    "is_awesome" : true,
-    "won_oscar" : false,
-    "actors" :["Ethan Hawke", "Umma Thurman", "Alan Akir"],
-    "budget" : null,
-    "credits" : {
-        "director" : "Andrew Niccol",
-        "writer" : "Andrew Niccol",
-        "composer" : "Michael Nyam",
-        "cinematographer": "Slawomir Idziak"
-    }
+  "title": "Gattaca",
+  "release_year": 1997,
+  "is_awesome": true,
+  "won_oscar": false,
+  "actors": [
+    "Ethan Hawke",
+    "Umma Thurman",
+    "Alan Akir"
+  ],
+  "budget": null,
+  "credits": {
+    "director": "Andrew Niccol",
+    "writer": "Andrew Niccol",
+    "composer": "Michael Nyam",
+    "cinematographer": "Slawomir Idziak"
+  }
 }
