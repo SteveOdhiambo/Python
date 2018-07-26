@@ -5,7 +5,7 @@ import json
 json.load(f): Load JSON data from file and convert it into a python dictionary 
 json.loads(s): Load JSON data from a string usually from a server
 json.dump(j, f): Write JSON object to a file 
-json.dumps(j): Output json object as string
+json.dumps(j): Converts python Dictionary to JSON string
 '''
 
 # json.load(f) example and convert the json into a dictionary
