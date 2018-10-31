@@ -31,3 +31,4 @@ with open('names.csv', 'r') as csv_file:
 
         for line in csv_dictReader:
             csv_writer.writerow(line)
+            # print(line['first_name'],line['email'])
